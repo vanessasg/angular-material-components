@@ -4,6 +4,7 @@ import { ButtonComponent } from './shared/button/button.component';
 import { InputComponent } from './shared/input/input.component';
 
 const routes: Routes = [
+  { path: '', component: ButtonComponent },
   { path: 'button', component: ButtonComponent },
   { path: 'input', component: InputComponent}
 ];

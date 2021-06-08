@@ -11,6 +11,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { ToggleSidebarComponent } from './components/toggle-sidebar/toggle-sidebar.component';
 import { FormsModule } from '@angular/forms';
 import { ButtonModule } from './shared/button/button.module';
+import { InputModule } from './shared/input/input.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ButtonModule } from './shared/button/button.module';
     FormsModule,
     BrowserAnimationsModule,
     MaterialModule,
-    ButtonModule
+    ButtonModule,
+    InputModule
   ],
   providers: [],
   bootstrap: [AppComponent],

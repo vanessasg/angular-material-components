@@ -33,4 +33,12 @@ mat-sidenav {
 mat-sidenav-content {
   background-color: #fff;
   padding: 10px;
+
+  /* hide scrollbar */
+  overflow-y: scroll;     /* ability to scroll */
+  scrollbar-width: none;  /* firefox*/
+
+  &::-webkit-scrollbar {
+    display: none;        /* chrome - safari - opera */
+  }
 }

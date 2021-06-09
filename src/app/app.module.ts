@@ -13,7 +13,9 @@ import { FormsModule } from '@angular/forms';
 import { ButtonModule } from './shared/button/button.module';
 import { InputModule } from './shared/input/input.module';
 import { DialogModule } from './shared/dialog/dialog.module';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
+import { ProgressBarComponent } from './shared/progress-bar/progress-bar.component';
+import { ProgressBarModule } from './shared/progress-bar/progress-bar.module';
 
 @NgModule({
   declarations: [
@@ -27,10 +29,11 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
     FormsModule,
     BrowserAnimationsModule,
     MaterialModule,
+    HttpClientModule,
     ButtonModule,
     InputModule,
     DialogModule,
-    HttpClientModule
+    ProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent],

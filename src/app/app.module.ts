@@ -12,6 +12,8 @@ import { ToggleSidebarComponent } from './components/toggle-sidebar/toggle-sideb
 import { FormsModule } from '@angular/forms';
 import { ButtonModule } from './shared/button/button.module';
 import { InputModule } from './shared/input/input.module';
+import { DialogModule } from './shared/dialog/dialog.module';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { InputModule } from './shared/input/input.module';
     BrowserAnimationsModule,
     MaterialModule,
     ButtonModule,
-    InputModule
+    InputModule,
+    DialogModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="title">Dialog launched from a menu</div>
+
+
+  <button mat-button [matMenuTriggerFor]="menu" #menuTrigger='matMenuTrigger'>Menu</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)='openDialog()'>Open dialog</button>
+  </mat-menu>
+
+</div>

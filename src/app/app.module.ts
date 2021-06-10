@@ -16,6 +16,7 @@ import { DialogModule } from './shared/dialog/dialog.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ProgressBarComponent } from './shared/progress-bar/progress-bar.component';
 import { ProgressBarModule } from './shared/progress-bar/progress-bar.module';
+import { HomeMenuModule } from './shared/home-menu/home-menu.module';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ProgressBarModule } from './shared/progress-bar/progress-bar.module';
     ButtonModule,
     InputModule,
     DialogModule,
-    ProgressBarModule
+    ProgressBarModule,
+    HomeMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent],

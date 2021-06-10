@@ -6,11 +6,17 @@ mat-sidenav-container {
 mat-sidenav {
   background-color: #FAFBFD;
   width: 250px;
-  padding:10px 50px;
+  padding: 10px 50px;
   border: none;
 
   h3 {
+
     margin-bottom: 100px;
+
+    a {
+      text-decoration: none;
+      color: #090F31;
+    }
   }
 
   .links {
@@ -35,10 +41,13 @@ mat-sidenav-content {
   padding: 10px;
 
   /* hide scrollbar */
-  overflow-y: scroll;     /* ability to scroll */
-  scrollbar-width: none;  /* firefox*/
+  overflow-y: scroll;
+  /* ability to scroll */
+  scrollbar-width: none;
+  /* firefox*/
 
   &::-webkit-scrollbar {
-    display: none;        /* chrome - safari - opera */
+    display: none;
+    /* chrome - safari - opera */
   }
 }

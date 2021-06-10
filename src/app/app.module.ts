@@ -17,12 +17,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProgressBarComponent } from './shared/progress-bar/progress-bar.component';
 import { ProgressBarModule } from './shared/progress-bar/progress-bar.module';
 import { HomeMenuModule } from './shared/home-menu/home-menu.module';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    ToggleSidebarComponent
+    ToggleSidebarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
